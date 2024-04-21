@@ -38,7 +38,7 @@ của mình để chứa các phần tử con */
   font-weight: 700;
   font-style: normal;
   font-size: 23px;
-  padding: 20px 0px 10px 0px;
+  padding: 10px 0px;
   background-color: #a0153e;
   color: #ffffff;
 }
@@ -47,7 +47,7 @@ của mình để chứa các phần tử con */
   text-align: center;
   background-color: #a0153e;
   color: #ffffff;
-  padding: 0px 0px 30px 0px;
+  padding: 0px 0px 10px 0px;
 }
 
 .team {
