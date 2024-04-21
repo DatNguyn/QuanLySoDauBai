@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 62.5%;
+  font-size: 62.5%; /* 1 rem = 10px */
   font-family: "Roboto", sans-serif;
 }
 body {
-  font-size: 1.6rem;
+  font-size: 1.6rem; /* cơ chữ mặc định là 16px */
 }
 
 /* Khi bạn thêm class clearfix vào một phần tử cha, phần tử cha không tự động điều chỉnh chiều cao 
