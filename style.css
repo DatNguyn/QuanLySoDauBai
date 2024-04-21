@@ -20,10 +20,11 @@ của mình để chứa các phần tử con */
   clear: both;
 }
 
-.footer {
-  max-width: 1320px;
-  height: 30rem;
+#footer {
   margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .content {
