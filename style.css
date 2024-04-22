@@ -21,13 +21,12 @@ của mình để chứa các phần tử con */
 }
 
 .footer {
-  max-width: 1320px;
+  max-width: 1980px;
   height: 30rem;
   margin: 0 auto;
 }
 
 .content {
-  height: 80%;
   padding: 5px;
   margin: 0 auto;
 }
