@@ -85,11 +85,15 @@ của mình để chứa các phần tử con */
 
 .menu-items li a:hover {
   border-radius: 8px;
-  background-color: #a0153e;
-  color: white;
+  background-color: #e9e9e9;
 }
 
-.menu-items li a:hover p {
+.menu-items li a:active {
+  border-radius: 8px;
+  background-color: #a0153e;
+}
+
+.menu-items li a:active p {
   color: white;
 }
 
@@ -114,7 +118,6 @@ của mình để chứa các phần tử con */
   color: #a0153e;
   background-color: #ffffff;
 }
-
 
 /* footer */
 .footer {
