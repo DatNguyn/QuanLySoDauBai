@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <!-- link google material -->
@@ -20,6 +20,66 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="main">
+      <div class="menu">
+        <div class="account">
+          <div class="account-image">
+            <img src="images/account.png" alt="account" />
+          </div>
+          <div class="account-info">
+            <p class="account-name">Tên giáo viên</p>
+            <p class="greeting">Chúc bạn một ngày tốt lành!</p>
+          </div>
+        </div>
+        <ul class="menu-items">
+          <hr />
+          <li class="menu-tq">
+            <a href="#">
+              <p class="link-name">Tổng quan</p>
+            </a>
+          </li>
+          <li class="menu-tkb">
+            <a href="#">
+              <p class="link-name">Thời khoá biểu</p>
+            </a>
+          </li>
+          <li class="menu-khgd">
+            <a href="#">
+              <p class="link-name">Kế hoạch giảng dạy</p>
+            </a>
+          </li>
+          <li class="menu-qldt">
+            <a href="#">
+              <div class="submenu-qldt-icon">
+                <p class="link-name">Quản lý đào tạo</p>
+                <span class="material-symbols-outlined"> expand_more </span>
+              </div>
+            </a>
+            <ul class="submenu-qldt">
+              <li><a href="#">Kiểm duyệt</a></li>
+              <li><a href="#">Sổ đầu bài</a></li>
+            </ul>
+          </li>
+          <li class="menu-minigame">
+            <a href="#">
+              <p class="link-name">MiniGames</p>
+            </a>
+          </li>
+          <li class="menu-bctk">
+            <a href="#">
+              <p class="link-name">Báo cáo thống kê</p>
+            </a>
+          </li>
+          <hr />
+          <li>
+            <a href="#">
+              <p class="logout">Đăng xuất</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <div class="footer" class="clearfix">
       <p class="text1"><strong>PHÒNG ĐÀO TẠO</strong></p>
       <p class="text2">
@@ -39,5 +99,7 @@
         <span style="color: #fdffa4">OderMeMe</span>
       </p>
     </div>
+
+    <script src="index.js"></script>
   </body>
 </html>
