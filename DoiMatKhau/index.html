@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trang chủ</title>
+    <title>Đổi mật khẩu</title>
     <!-- link googole fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,50 +33,74 @@
         </div>
         <ul class="menu-items">
           <hr />
-          <li class="menu-tq">
+          <li class="menu-hs">
             <a href="#">
-              <p class="link-name">Tổng quan</p>
+              <p class="link-name">Hồ sơ</p>
             </a>
           </li>
-          <li class="menu-tkb">
+          <li class="menu-dmk">
             <a href="#">
-              <p class="link-name">Thời khoá biểu</p>
-            </a>
-          </li>
-          <li class="menu-khgd">
-            <a href="#">
-              <p class="link-name">Kế hoạch giảng dạy</p>
-            </a>
-          </li>
-          <li class="menu-qldt">
-            <a href="#">
-              <div class="submenu-qldt-icon">
-                <p class="link-name">Quản lý đào tạo</p>
-                <span class="material-symbols-outlined"> expand_more </span>
-              </div>
-            </a>
-            <ul class="submenu-qldt">
-              <li><a href="#">Kiểm duyệt</a></li>
-              <li><a href="#">Sổ đầu bài</a></li>
-            </ul>
-          </li>
-          <li class="menu-minigame">
-            <a href="#">
-              <p class="link-name">MiniGames</p>
-            </a>
-          </li>
-          <li class="menu-bctk">
-            <a href="#">
-              <p class="link-name">Báo cáo thống kê</p>
+              <p class="link-name">Đổi mật khẩu</p>
             </a>
           </li>
           <hr />
-          <li>
+          <li class="menu-dx">
             <a href="#">
               <p class="logout">Đăng xuất</p>
             </a>
           </li>
         </ul>
+      </div>
+      <div class="main">
+        <div class="content clearfix">
+          <div class="header">
+            <p class="title1">Đổi mật khẩu</p>
+            <p class="title2">Đổi mật khẩu cho tài khoản của bạn</p>
+          </div>
+          <hr />
+          <p class="notice">
+            Đặt mật khẩu có ít nhất là 8 ký tự, trong đó có cả chữ và số.
+          </p>
+          <div class="changepassword">
+            <div class="changepassword-input">
+              <form>
+                <p>
+                  <span class="label" for="old-password">Mật khẩu cũ: </span>
+                  <input
+                    type="password"
+                    placeholder="Nhập mật khẩu cũ"
+                    id="old-password"
+                    name="oldPassword"
+                  />
+                </p>
+                <p>
+                  <span class="label" for="new-password">Mật khẩu mới: </span>
+                  <input
+                    type="password"
+                    placeholder="Nhập mật khẩu mới"
+                    id="new-password"
+                    name="newPassword"
+                  />
+                </p>
+                <p>
+                  <span class="label" for="confirm-password"
+                    >Xác nhận mật khẩu:
+                  </span>
+                  <input
+                    type="password"
+                    placeholder="Nhập lại mật khẩu mới"
+                    id="confirm-password"
+                    name="confirmPassword"
+                  />
+                </p>
+              </form>
+            </div>
+            <div class="button">
+              <button class="btn-huy">Hủy</button>
+              <button class="btn-xacnhan">Xác nhận</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
