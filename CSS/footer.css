@@ -1,0 +1,43 @@
+/* footer */
+
+/* Khi bạn thêm class clearfix vào một phần tử cha, phần tử cha không tự động điều chỉnh chiều cao 
+của mình để chứa các phần tử con */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.footer {
+  width: 100%;
+  height: 204.5px;
+  padding: 5px;
+}
+
+.text1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 23px;
+  padding: 10px 0px;
+  background-color: #a0153e;
+  color: #ffffff;
+}
+
+.text2 {
+  text-align: center;
+  background-color: #a0153e;
+  color: #ffffff;
+  padding: 0px 0px 10px 0px;
+}
+
+.team {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: #710021;
+  color: #ffffff;
+  padding: 10px 0px;
+}
