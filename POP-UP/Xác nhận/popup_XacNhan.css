@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  height: 48px;
+  cursor: pointer;
+  padding: 10px 24px;
+  border: 0;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  border-radius: 8px;
+  color: #ffff;
+  background: #a0153e;
+  transition: transform 0.3s ease; 
+  overflow: hidden; 
+}
+.popup-container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  pointer-events: none;
+}
+.popup-container.active {
+  opacity: 1;
+  pointer-events: auto;
+  transition: 0.4s ease;
+}
+.popup {
+  width: 517px;
+  height: 267px;
+  background: #ffff;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  text-align: center;
+  padding: 36px;
+  border-radius: 8px;
+}
+.popup-container.active .popup {
+  transform: translate(-50%, -50%) scale(1);
+  transition: 0.4s ease;
+  transition-delay: 0.25s;
+}
+.popup .popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #dedede;
+}
+.popup .popup-header h1 {
+  font-size: 22px;
+  margin: 0;
+}
+.material-symbols-outlined {
+  font-size: 24px;
+  cursor: pointer;
+}
+.popup .popup-body p {
+  font-size: 16px;
+  text-align: justify;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+.popup .btn-cancel {
+  border: 1px solid #a0153e;
+  color: #a0153e;
+  background: #ffff;
+  margin-right: 12px;
+}
+button:hover {
+  transform: scale(1.05);
+  font-size: 18px;
+  transform-origin: center center;
+}

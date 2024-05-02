@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+  }
+  #wrapper {
+    width: 100vw;
+    height: 100vh;
+  }
+  .material-symbols-outlined {
+    font-size: 20px;
+    vertical-align: middle;
+  }
+  span {
+    margin: 4px;
+  }
+  button {
+    width: 130px;
+    height: 48px;
+    cursor: pointer;
+    padding: 10px 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    color: #ffff;
+    background: #a0153e;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+  }
+  .popup-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+  }
+  .popup-container.active {
+    opacity: 1;
+    pointer-events: auto;
+    transition: 0.4s ease;
+  }
+  .popup-container.active-record {
+    opacity: 1;
+    pointer-events: auto;
+    transition: 0.4s ease;
+  }
+  .popup {
+    width: 1342px;
+    height: 822px;
+    background: #ffff;
+    border-radius: 8px;
+    padding: 60px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .popup .popup-header {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .popup .popup-header h1 {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 15px 0;
+  }
+  .popup .cancel-icon {
+    font-size: 40px;
+    cursor: pointer;
+    color: #a0153e;
+  }
+  .popup .popup-body {
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    border: 1px solid #6f7979;
+  }
+  .popup h2 {
+    padding: 10px 10px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .popup span {
+    font-size: 22px;
+    font-weight: 400;
+    display: inline-block;
+    justify-content: space-between;
+  }
+  .plan-type {
+    padding-left: 119px;
+  }
+  .subject-name {
+    padding-left: 177px;
+  }
+  .class-name {
+    padding-left: 229px;
+  }
+  .teacher-name {
+    padding-left: 169px;
+  }
+  .ppct {
+    padding-left: 47px;
+  }
+  .content {
+    padding-left: 89px;
+  }
+  .comment {
+    padding-left: 105px;
+  }
+ .status {
+    padding-left: 160px;
+    color: #21971E;
+  }
+  .btn-accept {
+    margin-right: 20px;
+    background: #21971E;
+  }
+  button:hover {
+    transform: scale(1.05);
+    font-size: 18px;
+    transform-origin: center center;
+  }
+  
