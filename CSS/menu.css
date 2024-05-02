@@ -1,13 +1,12 @@
-.main {
+.body {
   max-width: 1980px;
   margin: 0 auto;
-  margin-top: 130px;
-  padding: 10px;
+  padding: 20px 60px;
+  display: flex;
 }
 
 /* menu */
 .menu {
-  height: 1180px;
   width: 278px;
   background-color: #ffffff;
   border: 1px solid grey;
@@ -41,6 +40,7 @@
 
 .menu-items hr {
   margin: 5px 0px;
+  border-width: 0.5px;
 }
 
 .menu-items li {
@@ -63,11 +63,15 @@
 
 .menu-items li a:hover {
   border-radius: 8px;
-  background-color: #a0153e;
-  color: white;
+  background-color: #e9e9e9;
 }
 
-.menu-items li a:hover p {
+.menu-items li a:active {
+  border-radius: 8px;
+  background-color: #a0153e;
+}
+
+.menu-items li a:active p {
   color: white;
 }
 
@@ -91,44 +95,4 @@
 .submenu-qldt li a:hover {
   color: #a0153e;
   background-color: #ffffff;
-}
-
-/* footer */
-.footer {
-  max-width: 1980px;
-  height: 204.5px;
-  margin: 0 auto;
-}
-
-.content {
-  padding: 5px;
-  margin: 0 auto;
-}
-
-.text1 {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 23px;
-  padding: 10px 0px;
-  background-color: #a0153e;
-  color: #ffffff;
-}
-
-.text2 {
-  text-align: center;
-  background-color: #a0153e;
-  color: #ffffff;
-  padding: 0px 0px 10px 0px;
-}
-
-.team {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  background-color: #710021;
-  color: #ffffff;
-  padding: 10px 0px;
 }

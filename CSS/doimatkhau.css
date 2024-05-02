@@ -21,7 +21,7 @@ của mình để chứa các phần tử con */
   clear: both;
 }
 
-.container {
+.body {
   max-width: 1980px;
   margin: 0 auto;
   padding: 20px 60px;
@@ -30,7 +30,6 @@ của mình để chứa các phần tử con */
 
 /* menu */
 .menu {
-  height: 1180px;
   width: 278px;
   background-color: #ffffff;
   border: 1px solid grey;
