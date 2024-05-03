@@ -129,3 +129,10 @@
 .button_login:focus {
   outline: none;
 }
+
+.notification {
+  color: red;
+  font-size: 11px;
+  box-sizing: border-box;
+  margin-bottom: 2px;
+}

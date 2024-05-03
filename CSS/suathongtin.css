@@ -1,0 +1,169 @@
+.main {
+  box-sizing: border-box;
+  height: max-content;
+  display: flex;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+/* menu */
+.menu {
+  width: 30%;
+  background-color: #ffffff;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.account {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.account-name {
+  font-weight: 500;
+}
+
+.greeting {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.menu-items {
+  padding: 0px 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.menu-items hr {
+  margin: 5px 0px;
+  border-width: 0.5px;
+}
+
+.menu-items li {
+  list-style: none;
+}
+
+.menu-items li a {
+  height: 50px;
+  padding: 0px 15px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logout {
+  color: #a0153e;
+}
+
+.menu-hs {
+  border-radius: 8px;
+  background-color: #a0153e;
+}
+
+.menu-hs p {
+  color: white;
+}
+
+.menu-dx:hover,
+.menu-hs:hover {
+  border-radius: 8px;
+  background-color: #e9e9e9;
+}
+
+.menu-items li a:active {
+  border-radius: 8px;
+  background-color: #a0153e;
+}
+
+.menu-items li a:active p {
+  color: white;
+}
+
+.content {
+  background-color: white;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.content_details {
+  box-sizing: border-box;
+  border: 1px solid rgba(128, 128, 128, 0.295);
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  margin-bottom: 300px;
+}
+
+.form_edit {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form_button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.item_btn {
+  margin: 10px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  height: 37px;
+  width: 100px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.content_title {
+  box-sizing: border-box;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.item_title {
+  font-size: 16px;
+  font-weight: bold;
+  width: 160px;
+}
+
+.item_input {
+  background-color: white;
+  height: 37px;
+  width: 100%;
+  border: 1px solid #dad9d9;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.item_input::placeholder {
+  color: #afafaf;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.cancel_btn {
+  border: 2px solid #a0153e;
+  font-weight: bold;
+  color: #a0153e;
+  background-color: white;
+}
+
+.update_btn {
+  background-color: #a0153e;
+  color: white;
+}
