@@ -8,8 +8,12 @@ body {
   font-size: 1.6rem; /* cơ chữ mặc định là 16px */
 }
 
+.header {
+  width: 100%;
+}
+
 .header_title {
-  position: absolute;
+  position: relative;
   top: 0px;
   height: 100px;
   width: 100%;
@@ -77,8 +81,8 @@ body {
 }
 
 .nav_bar {
-  position: absolute;
-  top: 100px;
+  position: relative;
+  top: 0px;
   background-color: white;
   width: 100%;
   height: 30px;
