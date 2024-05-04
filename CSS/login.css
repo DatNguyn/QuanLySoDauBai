@@ -1,0 +1,131 @@
+.login {
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #e9e9e9;
+}
+
+.login__body {
+  position: absolute;
+  width: 400px;
+  height: 364px;
+  top: 158.5px;
+  left: 483px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.login__title {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.title {
+  display: inline-block;
+}
+
+.title__details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.school_name {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.sys_name {
+  margin-top: 10px;
+  color: #a0153e;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.form {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.form__details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.input_title {
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 2px;
+}
+
+.input_box {
+  height: 37px;
+  width: 100%;
+  border: 1px solid #dad9d9;
+  border-radius: 5px;
+}
+
+.input_box::placeholder {
+  color: #dad9d9;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.show_password {
+  color: #a0153e;
+  font-size: 12px;
+}
+
+.password_box {
+  position: relative;
+}
+
+.input_box input[type="password"] {
+  width: 40px;
+  padding-left: 20px;
+}
+
+.password_box .toggle_password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background-color: white;
+}
+
+.must_enter {
+  color: red;
+}
+
+.button_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a0153e;
+  border-radius: 5px;
+  color: white;
+  height: 37px;
+  border: 0;
+  margin-left: 35px;
+  margin-right: 35px;
+  cursor: pointer;
+}
+
+.button_login:hover {
+  background-color: #70122e;
+}
+
+.button_login:focus {
+  outline: none;
+}

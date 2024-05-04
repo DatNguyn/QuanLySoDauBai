@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../public/css/minigame.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Trang minigame</title>
+  </head>
+  <body>
+    <header class="header"></header>
+    <nav class="breadcrumb"></nav>
+    <div class="container">
+      <aside class="aside">
+        <div class="aside__profile">
+          <div class="aside__avatar-container">
+            <img src="../../public/imgs/avatar.jpg" alt="Avatar for teacher" class="aside__avatar"/>
+          </div>
+          <div class="aside__info">
+            <span class="aside__name">Tên giáo viên</span>
+            <span class="aside__logan">Chúc ngày mới tốt lành!</span>
+          </div>
+        </div>
+        <hr />
+        <nav class="aside__nav">
+          <ul class="aside__nav-container">
+            <li><a class="aside__nav-item" href="/">Tổng quan</a></li>
+            <li><a class="aside__nav-item" href="/schedule">Thời khóa biểu</a></li>
+            <li><a class="aside__nav-item" href="/teaching-plan">Kế hoạch giảng dạy</a></li>
+            <li class="aside__nav-item-wrapper-downdrop">
+              <label class="aside__nav-item" for="teaching-management">
+                Quản lý giảng dạy
+              </label>
+              <input id="teaching-management" type="checkbox">
+              <span class="material-symbols-outlined on-uncheck"> stat_1 </span>
+              <span class="material-symbols-outlined on-check"> stat_minus_1 </span>
+              <ul class="aside__nav-item-dropdown">
+                <li><a class="aside__nav-item" href="">Kiểm duyệt</a></li>
+                <li><a class="aside__nav-item" href="">Sổ đầu bài</a></li>
+              </ul>
+            </li>
+            <li><a class="aside__nav-item is-active" href="/minigame">Minigames</a></li>
+            <li><a class="aside__nav-item" href="/report">Báo cáo thống kê</a></li>
+          </ul>
+        </nav>
+        <hr />
+        <button class="aside__nav-item aside__nav-item--btn">
+          <span>Đăng xuất</span>
+        </button>
+      </aside>
+      <main class="main">
+        <h1>Minigames</h1>
+        <div class="main__sort-container">
+          <span class="main__sort--text">Sắp xếp theo: </span>
+          <input class="main__sort--input" id="main__sort--btn-1" type="checkbox">
+          <label for="main__sort--btn-1" class="main__sort--btn">
+            <span class="btn__icon icon material-symbols-outlined">done</span>
+            <span class="btn__label">Gần đây</span>
+          </label>
+          <input class="main__sort--input" id="main__sort--btn-2" type="checkbox">
+          <label for="main__sort--btn-2" class="main__sort--btn">
+            <span class="btn__icon icon material-symbols-outlined">done</span>
+            <span class="btn__label">Khác</span>
+          </label>
+        </div>
+        <hr />
+        <div class="main__container">
+          <h2 class="main__container-title">Đặt thời gian</h2>
+          <div class="main__container-wrapper">
+            <div class="main__container-item">
+              <div class="main__container-img-container">
+                <img src="../../public/imgs/hoc-tap.png" alt="" class="main__container-img" />
+              </div>
+              <a href="#" class="main__container-link">Chơi game</a>
+            </div>
+            <div class="main__container-item">
+              <div class="main__container-img-container">
+                <img src="../../public/imgs/hoc-tap.png" alt="" class="main__container-img" />
+              </div>
+              <a href="#" class="main__container-link">Chơi game</a>
+            </div>
+            <div class="main__container-item">
+              <div class="main__container-img-container">
+                <img src="../../public/imgs/hoc-tap.png" alt="" class="main__container-img" />
+              </div>
+              <a href="#" class="main__container-link">Chơi game</a>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="main__container">
+          <h2 class="main__container-title">Chia nhóm</h2>
+          <div class="main__container-wrapper">
+            <div class="main__container-item">
+              <div class="main__container-img-container">
+                <img src="../../public/imgs/hoc-tap.png" alt="" class="main__container-img" />
+              </div>
+              <a href="#" class="main__container-link">Chơi game</a>
+            </div>
+            <div class="main__container-item">
+              <div class="main__container-img-container">
+                <img src="../../public/imgs/hoc-tap.png" alt="" class="main__container-img" />
+              </div>
+              <a href="#" class="main__container-link">Chơi game</a>
+            </div>
+            <div class="main__container-item">
+              <div class="main__container-img-container">
+                <img src="../../public/imgs/hoc-tap.png" alt="" class="main__container-img" />
+              </div>
+              <a href="#" class="main__container-link">Chơi game</a>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="main__container">
+          <h2 class="main__container-title">Gọi tên</h2>
+          <div class="main__container-wrapper">
+            <div class="main__container-item">
+              <div class="main__container-img-container">
+                <img src="../../public/imgs/hoc-tap.png" alt="" class="main__container-img" />
+              </div>
+              <a href="#" class="main__container-link">Chơi game</a>
+            </div>
+            <div class="main__container-item">
+              <div class="main__container-img-container">
+                <img src="../../public/imgs/hoc-tap.png" alt="" class="main__container-img" />
+              </div>
+              <a href="#" class="main__container-link">Chơi game</a>
+            </div>
+            <div class="main__container-item">
+              <div class="main__container-img-container">
+                <img src="../../public/imgs/hoc-tap.png" alt="" class="main__container-img" />
+              </div>
+              <a href="#" class="main__container-link">Chơi game</a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer class="footer"></footer>
+  </body>
+</html>

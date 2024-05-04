@@ -1,0 +1,270 @@
+:root {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Roboto", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E9E9E9;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 3fr;
+  grid-template-areas:
+    "header header"
+    "breadcrumb breadcrumb"
+    "aside main"
+    "footer footer";
+  gap: 1rem; */
+}
+
+.container {
+  margin: 1rem auto;
+  padding-inline: 60px;
+  /* max-width: 1200px; */
+  min-height: 1000px;
+  max-height: 1200px;
+  display: flex;
+  /* display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas:
+    "aside main"; */
+  display: flex;
+  gap: 1rem;
+}
+
+.material-symbols-outlined {
+  user-select: none;
+}
+
+.aside {
+  grid-area: aside;
+  width: 278px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #f8f9fa;
+  border: solid 2px #a0153e;
+}
+
+.aside__profile {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.aside__avatar-container {
+  width: 4rem;
+  aspect-ratio: 1/1;
+}
+
+.aside__avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.aside__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.aside__name {
+  font-weight: bold;
+}
+
+.aside__logan {
+  font-size: 0.75rem;
+  color: #6c757d;
+  font-style: italic;
+}
+
+/* .aside__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+} */
+
+.aside__nav a:is(:link, :visited, :active) {
+  color: unset;
+  text-decoration: unset;
+}
+
+.aside__nav-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.aside__nav-item {
+  display: block;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #f8f9fa;
+  font-weight: 600;
+
+  cursor: pointer !important;
+  user-select: none;
+}
+
+.aside__nav-item:hover {
+  background-color: #e9ecef;
+}
+
+.aside__nav-item.is-active {
+  background-color: #a0153e;
+  color: white !important;
+}
+
+.aside__nav-item-wrapper-downdrop {
+  position: relative;
+}
+
+.aside__nav-item-wrapper-downdrop .material-symbols-outlined {
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+}
+
+#teaching-management:checked ~ .material-symbols-outlined.on-check {
+  display: block;
+}
+
+#teaching-management:not(:checked) ~ .material-symbols-outlined.on-uncheck {
+  display: block;
+}
+
+#teaching-management {
+  display: none;
+}
+
+.aside__nav-item-dropdown {
+  margin-block-start: 0.5rem;
+}
+
+#teaching-management:checked ~ .aside__nav-item-dropdown {
+  display: none;
+}
+
+.aside__nav-item-dropdown .aside__nav-item {
+  padding-left: 2rem;
+}
+
+.aside__nav-item--btn {
+  width: 100%;
+  border: solid 2px red;
+  color: red;
+}
+
+.aside__nav-item--btn:hover {
+  background-color: rgba(250, 0, 0, 0.025);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.aside__nav-item--btn:active {
+  background-color: rgba(250, 0, 0, 0.05);
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.main {
+  width: 100%;
+  grid-area: main;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #f8f9fa;
+  border: solid 2px #a0153e;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.main h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.main__sort-container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.main__sort--btn {
+  padding-inline: 1rem;
+  padding-block: .5rem;
+  min-width: 4rem;
+  border-radius: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  border: solid 2px #6c757d;
+  user-select: none;
+  justify-content: center;
+}
+
+.btn__label {
+  line-height: 1.5rem;
+}
+
+.btn__icon.icon {
+  display: none;
+}
+
+.main__sort--input {
+  display: none;
+}
+
+.main__sort--input:checked + .main__sort--btn {
+  padding-inline-start: 0.5rem;
+  background-color: #a0153e;
+  border: solid 2px #a0153e;
+  color: white;
+}
+
+.main__sort--input:checked + .main__sort--btn .btn__icon {
+  display: block;
+}
+
+.main__container-wrapper {
+  display: flex;
+  /* gap: .5rem; */
+  justify-content: space-around;
+}
+
+.main__container-item {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  align-items: center;
+}
+
+.main__container-link:is(:link, :visited, :active) {
+  color: unset;
+  text-decoration: unset;
+}
+
+.main__container-link {
+  display: block;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  background-color: #a0153e;
+  color: white !important;
+  font-weight: 600;
+}
+
+.footer {
+  grid-area: footer;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #f8f9fa;
+}
