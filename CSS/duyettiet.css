@@ -13,19 +13,19 @@ body {
   font-size: 1.6rem; /* cơ chữ mặc định là 16px */
 }
 
-/* sửa menu */
-.submenu-qldt {
+/* sửa aside_nav */
+.subaside_nav-qldt {
   display: block;
 }
 
-.menu-qldt .select1 {
+.aside_nav-qldt .select1 {
   background-color: #a0153e;
   color: white;
   border-radius: 8px;
   pointer-events: none;
 }
 
-.menu-qldt .submenu-qldt .select2 {
+.aside_nav-qldt .subaside_nav-qldt .select2 {
   color: #a0153e;
 }
 

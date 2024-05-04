@@ -38,7 +38,7 @@
 
     <!-- link css -->
     <link rel="stylesheet" href="CSS/header.css" />
-    <link rel="stylesheet" href="CSS/menu.css" />
+    <link rel="stylesheet" href="CSS/aside_nav.css" />
     <link rel="stylesheet" href="CSS/footer.css" />
   </head>
   <body>
@@ -72,7 +72,7 @@
               </button>
 
               <div
-                class="dropdown-menu dropdown-menu-right"
+                class="dropdown-aside_nav dropdown-aside_nav-right"
                 aria-labelledby="dropdownNamHocButton"
               >
                 <a class="dropdown-item" href="#">Năm học 2021-2022</a>
@@ -93,7 +93,10 @@
               >
                 Học kỳ
               </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownHocKyButton">
+              <div
+                class="dropdown-aside_nav"
+                aria-labelledby="dropdownHocKyButton"
+              >
                 <a class="dropdown-item" href="#">Học kỳ I</a>
                 <a class="dropdown-item" href="#">Học kỳ II</a>
               </div>
@@ -134,7 +137,7 @@
     </header>
 
     <div class="body">
-      <div class="menu">
+      <div class="aside_nav">
         <div class="account">
           <div class="account-image">
             <img src="images/account.png" alt="account" />
@@ -144,41 +147,41 @@
             <p class="greeting">Chúc bạn một ngày tốt lành!</p>
           </div>
         </div>
-        <ul class="menu-items">
+        <ul class="aside_nav-items">
           <hr />
-          <li class="menu-tq">
+          <li class="aside_nav-tq">
             <a href="#">
               <p class="link-name">Tổng quan</p>
             </a>
           </li>
-          <li class="menu-tkb">
+          <li class="aside_nav-tkb">
             <a href="#">
               <p class="link-name">Thời khoá biểu</p>
             </a>
           </li>
-          <li class="menu-khgd">
+          <li class="aside_nav-khgd">
             <a href="#">
               <p class="link-name">Kế hoạch giảng dạy</p>
             </a>
           </li>
-          <li class="menu-qldt">
+          <li class="aside_nav-qldt">
             <a href="#">
-              <div class="submenu-qldt-icon">
+              <div class="subaside_nav-qldt-icon">
                 <p class="link-name">Quản lý đào tạo</p>
                 <span class="material-symbols-outlined"> expand_more </span>
               </div>
             </a>
-            <ul class="submenu-qldt">
+            <ul class="subaside_nav-qldt">
               <li><a href="#">Kiểm duyệt</a></li>
               <li><a href="#">Sổ đầu bài</a></li>
             </ul>
           </li>
-          <li class="menu-minigame">
+          <li class="aside_nav-minigame">
             <a href="#">
               <p class="link-name">MiniGames</p>
             </a>
           </li>
-          <li class="menu-bctk">
+          <li class="aside_nav-bctk">
             <a href="#">
               <p class="link-name">Báo cáo thống kê</p>
             </a>
