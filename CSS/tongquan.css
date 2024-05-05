@@ -92,6 +92,13 @@
   color: #a0153e;
   display: flex;
   justify-content: center;
+  text-decoration: none;
+}
+
+.more_option:hover {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
 }
 
 .menu-tq {
