@@ -1,16 +1,19 @@
 .main {
+  box-sizing: border-box;
   height: max-content;
-  padding: 10px;
   display: flex;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
+/* menu */
 .menu {
   width: 30%;
   background-color: #ffffff;
   border: 1px solid grey;
   border-radius: 10px;
   margin-right: 10px;
-  margin-left: 15px;
 }
 
 .account {
@@ -40,6 +43,7 @@
 
 .menu-items hr {
   margin: 5px 0px;
+  border-width: 0.5px;
 }
 
 .menu-items li {
@@ -60,34 +64,26 @@
   color: #a0153e;
 }
 
-.menu-items li a:hover {
+.menu-hs {
   border-radius: 8px;
   background-color: #a0153e;
+}
+
+.menu-hs p {
   color: white;
 }
 
-.menu-items li a:hover p {
+.menu-dx:hover,
+.menu-hs:hover {
+  border-radius: 8px;
+  background-color: #e9e9e9;
+}
+
+.menu-items li a:active {
+  border-radius: 8px;
+  background-color: #a0153e;
+}
+
+.menu-items li a:active p {
   color: white;
-}
-
-.material-symbols-outlined {
-  height: auto;
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
-}
-
-.submenu-qldt-icon {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.submenu-qldt {
-  padding: 0px 20px;
-  display: none;
-}
-
-.submenu-qldt li a:hover {
-  color: #a0153e;
-  background-color: #ffffff;
 }
