@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1" />
+    <title>Update Sổ đầu bài</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,1,0"
+    />
+    <link rel="stylesheet" href="/CSS/popup_GhiSoDauBai.css" />
+    <script defer src="/javascript/popup_GhiSoDauBai.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <button class="btn-open">Select</button>
+      <!-- Popup 1 -->
+      <div class="popup-container" id="containerTietHoc">
+        <div class="popup-tiet-hoc">
+          <div class="popup-header">
+            <h1>
+              <span class="material-symbols-outlined contacts-icon"
+                >import_contacts</span
+              >
+              TOÁN HỌC
+            </h1>
+          </div>
+          <div class="popup-body">
+            <p>
+              <span class="material-symbols-outlined">account_circle</span>
+              Nguyễn Văn A
+            </p>
+            <p><span class="material-symbols-outlined">school</span>11a1</p>
+            <p>
+              <span class="material-symbols-outlined">location_on</span>Phòng
+              A112
+            </p>
+            <p>
+              <span class="material-symbols-outlined">schedule</span>7:30 - 7:45
+            </p>
+          </div>
+          <div class="popup-footer">
+            <button class="btn-rollCall">Điểm danh</button>
+            <button class="btn-record">Ghi sổ đầu bài</button>
+          </div>
+        </div>
+      </div>
+      <!-- End Popup 1-->
+      <!-- Popup 2 -->
+      <div class="popup-container" id="containerGhiSo">
+        <div class="popup-ghi-so">
+          <div class="popup-header">
+            <h1>Cập nhật sổ đầu bài</h1>
+            <span class="material-symbols-outlined cancel-icon">cancel</span>
+          </div>
+          <div class="popup-body">
+            <h2>Thứ 5, ngày 23/12/2024, Buổi sáng, Tiết 1 (7:00 - 7:45)</h2>
+            <h2>Môn học: <span class="subject-name">Toán học</span></h2>
+            <h2>Lớp: <span class="class-name">11a1</span></h2>
+            <h2>Giáo viên: <span class="teacher-name">Nguyễn Văn A</span></h2>
+            <h2>Tiết theo PPCT: <span class="ppct">45</span></h2>
+            <h2>Vắng: <span class="student-count">0/30</span></h2>
+            <h2>
+              Đánh giá chất lượng:
+              <span class="quality">
+                <input type="number" value="0" />
+              </span>
+            </h2>
+            <h2>Nội dung bài học (*)</h2>
+            <form action="">
+              <input
+                type="text"
+                name="comment"
+                id="comment"
+                placeholder="Nhập nội dung bài học"
+              />
+            </form>
+            <h2>Nhận xét (*)</h2>
+            <form action="">
+              <input
+                type="text"
+                name="comment"
+                id="comment"
+                placeholder="Nhập nhận xét"
+              />
+            </form>
+            <button class="btn-picture">
+              <span class="material-symbols-outlined"> add_a_photo </span>
+              Thêm ảnh
+            </button>
+          </div>
+          <div class="popup-footer">
+            <button class="btn-cancel">Huỷ</button>
+            <button class="btn-save">Lưu</button>
+          </div>
+        </div>
+      </div>
+      <!-- End Popup 2 -->
+    </div>
+  </body>
+</html>
