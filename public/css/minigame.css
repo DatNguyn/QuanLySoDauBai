@@ -263,9 +263,14 @@ body {
   font-weight: 600;
 }
 
-.footer {
+/* .footer {
   grid-area: footer;
   padding: 1rem;
   border-radius: 0.5rem;
   background-color: #f8f9fa;
+} */
+
+#minigame .nav_tree{
+  display: flex;
+  align-items: center;
 }
