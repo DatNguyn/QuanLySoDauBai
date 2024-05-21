@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1" />
+    <title>Dạy bù</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,1,0"
+    />
+    <link rel="stylesheet" href="/CSS/popup_ThemTietDayBu.css" />
+    <script defer src="/javascript/popup_ThemTietDayBu.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <button class="btn-open">Select</button>
+      <!-- Popup -->
+      <div class="popup-container">
+        <div class="popup-dayBu">
+          <div class="popup-header">
+            <h1>Thêm mới kế hoạch giảng dạy</h1>
+            <span class="material-symbols-outlined cancel-icon">cancel</span>
+          </div>
+          <div class="popup-body">
+            <div class="item-list">
+              <h2>Tên bài dạy (*)</h2>
+              <form action="">
+                <input
+                  type="text"
+                  name="comment"
+                  id="comment"
+                  placeholder="Nhập tên bài dạy"
+                />
+              </form>
+            </div>
+            <div class="class-subject">
+              <i class="item">
+                <h2>Lớp (*)</h2>
+                <select name="class" id="class">
+                  <option value="10a1">10A1</option>
+                  <option value="10a2">10A2</option>
+                  <option value="10a3">10A3</option>
+                  <option value="10a4">10A4</option>
+                  <option value="10a5">10A5</option>
+                  <option value="10a6">10A6</option>
+                  <option value="10a7">10A7</option>
+                  <option value="10a8">10A8</option>
+                  <option value="10a9">10A9</option>
+                  <option value="10a10">10A10</option>
+                  <option value="11a1">11A1</option>
+                  <option value="11a2">11A2</option>
+                  <option value="11a3">11A3</option>
+                  <option value="11a4">11A4</option>
+                  <option value="11a5">11A5</option>
+                  <option value="11a6">11A6</option>
+                  <option value="11a7">11A7</option>
+                  <option value="11a8">11A8</option>
+                  <option value="12a1">12A1</option>
+                  <option value="12a2">12A2</option>
+                  <option value="12a3">12A3</option>
+                  <option value="12a4">12A4</option>
+                  <option value="12a5">12A5</option>
+                  <option value="12a6">12A6</option>
+                  <option value="12a7">12A7</option>
+                  <option value="12a8">12A8</option>
+                </select>
+              </i>
+              <i class="item">
+                <h2>Môn học (*)</h2>
+                <select name="subject" id="class">
+                  <option value="Ngữ văn">Ngữ văn</option>
+                  <option value="Toán học">Toán học</option>
+                  <option value="Tiếng Anh">Tiếng Anh</option>
+                  <option value="Lịch sử">Lịch sử</option>
+                  <option value="Địa lý">Địa lý</option>
+                  <option value="Vật lý">Vật lý</option>
+                  <option value="Hóa học">Hóa học</option>
+                  <option value="Sinh học">Sinh học</option>
+                  <option value="Công nghệ">Công nghệ</option>
+                  <option value="Thể dục">Thể dục</option>
+                  <option value="Giáo dục công dân">Giáo dục công dân</option>
+                  <option value="Giáo dục quốc phòng">
+                    Giáo dục quốc phòng
+                  </option>
+                  <option value="Tin học">Tin học</option>
+                </select>
+              </i>
+              <i class="item">
+                <h2>Tuần theo phân phối chương trình (*)</h2>
+                <select name="week" id="class">
+                  <option value="19">Tuần 19</option>
+                  <option value="20">Tuần 20</option>
+                  <option value="21">Tuần 21</option>
+                  <option value="22">Tuần 22</option>
+                  <option value="23">Tuần 23</option>
+                  <option value="24">Tuần 24</option>
+                  <option value="25">Tuần 25</option>
+                  <option value="26">Tuần 26</option>
+                  <option value="27">Tuần 27</option>
+                  <option value="28">Tuần 28</option>
+                  <option value="29">Tuần 29</option>
+                  <option value="30">Tuần 30</option>
+                  <option value="31">Tuần 31</option>
+                  <option value="32">Tuần 32</option>
+                  <option value="33">Tuần 33</option>
+                  <option value="34">Tuần 34</option>
+                  <option value="35">Tuần 35</option>
+                  <option value="36">Tuần 36</option>
+                  <option value="37">Tuần 37</option>
+                </select>
+              </i>
+            </div>
+            <div class="item-list">
+              <h2>Tiết theo phân phối chương trình (*)</h2>
+              <form action="">
+                <input
+                  type="text"
+                  name="comment"
+                  id="comment"
+                  placeholder="Nhập tiết theo phân phối chương trình"
+                />
+              </form>
+            </div>
+            <div class="item-list">
+              <h2>Thời gian (*)</h2>
+              <div class="lesson-date">
+                <form action="">
+                  <input
+                  type="lesson"
+                  name="lesson"
+                  id="lesson"
+                  placeholder="Nhập tiết học"
+                />
+                </form>
+                <input type="date" id="date" value="2018-07-03" />
+              </div>
+            </div>
+            <div class="item-list">
+              <h2>Nội dung bài dạy (*)</h2>
+              <form action="">
+                <input
+                  type="text"
+                  name="comment"
+                  id="comment"
+                  placeholder="Nhập nội dung bài dạy"
+                />
+              </form>
+            </div>
+            <div class="item-list">
+              <h2>Chú thích (*)</h2>
+              <form action="">
+                <input
+                  type="text"
+                  name="comment"
+                  id="comment"
+                  placeholder="Nhập chú thích"
+                />
+              </form>
+            </div>
+          </div>
+          <div class="popup-footer">
+            <button class="btn-cancel">Huỷ</button>
+            <button class="btn-save">Lưu</button>
+          </div>
+        </div>
+      </div>
+      <!-- End Popup -->
+    </div>
+  </body>
+</html>
