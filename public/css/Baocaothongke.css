@@ -50,9 +50,9 @@
     grid-area: aside;
     width: 278px;
     padding: 1rem;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     background-color: #f8f9fa;
-    border: solid 2px #a0153e;
+    border: solid 1px #6c757d;
   }
   
   .aside__profile {
@@ -164,8 +164,10 @@
   
   .aside__nav-item--btn {
     width: 100%;
-    border: solid 2px red;
-    color: red;
+    border: solid 2px #f8f9fa;
+    display: flex;
+    color: #a0153e;
+    font-size: medium;
   }
   
   .aside__nav-item--btn:hover {
@@ -182,9 +184,9 @@
     width: 100%;
     grid-area: main;
     padding: 1rem;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     background-color: #f8f9fa;
-    border: solid 2px #a0153e;
+    border: solid 1px #6c757d;
     padding-left: 60px;
     padding-right: 60px;
   }

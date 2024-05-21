@@ -162,11 +162,12 @@ body {
   padding-left: 2rem;
 }
 
-.aside__nav-item--btn {
-  width: 100%;
-  border: solid 2px red;
-  color: red;
-}
+ .aside__nav-item--btn {
+    width: 100%;
+    border: solid 2px #ffffff;
+    display: flex;
+    color: red;
+  }
 
 .aside__nav-item--btn:hover {
   background-color: rgba(250, 0, 0, 0.025);
