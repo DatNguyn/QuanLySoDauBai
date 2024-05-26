@@ -1,5 +1,7 @@
 .main {
-  height: max-content;
+  max-width: 1980px;
+  margin: 0 auto;
+  margin-top: 130px;
   padding: 10px;
   display: flex;
 }
@@ -9,8 +11,6 @@
   background-color: #ffffff;
   border: 1px solid grey;
   border-radius: 10px;
-  margin-right: 10px;
-  margin-left: 15px;
 }
 
 .account {
