@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1" />
+    <title>Kiểm duyệt dạy thay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,1,0"
+    />
+    <link rel="stylesheet" href="../../CSS/popup_KiemDuyetDayThay.css" />
+    <script defer src="../../javascript/popup_KiemDuyetDayThay.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <button class="btn-open">Select</button>
+      <!-- Popup -->
+      <div class="popup-container">
+        <div class="popup">
+          <div class="popup-header">
+            <h1>Duyệt kế hoạch dạy thay</h1>
+            <span class="material-symbols-outlined cancel-icon">cancel</span>
+          </div>
+          <div class="popup-body">
+            <h3>Thứ 5, ngày 2/5/2024, Buổi sáng, Tiết 1 (7:00 - 7:45)</h3>
+            <div class="name">
+              <h2>Loại kế hoạch:</h2>
+              <span class="plan-type">Dạy bù</span>
+            </div>
+            <div class="name">
+              <h2>Môn học:</h2>
+              <span class="subject-name">Toán học</span>
+            </div>
+            <div class="name">
+              <h2>Lớp:</h2>
+              <span class="class-name">11a1</span>
+            </div>
+            <div class="name">
+              <div class="select">
+                <h2>Giáo viên (*)</h2>
+                <select name="teacher-name" id="teacher-name">
+                  <option value="Nguyễn Văn A">Nguyễn Văn A</option>
+                  <option value="Lê Ngọc Anh">Lê Ngọc Anh</option>
+                  <option value="Trần Thị Bình">Trần Thị Bình</option>
+                  <option value="Trần Khang Ninh">Trần Khang Ninh</option>
+                  <option value="Nguyễn Huy Hùng">Nguyễn Huy Hùng</option>
+                  <option value="Nguyễn Tuấn Mạnh">Nguyễn Tuấn Mạnh</option>
+                  <option value="Nguyễn Thị Thanh">Nguyễn Thị Thanh</option>
+                  <option value="Nguyễn Thị Thảo">Nguyễn Thị Thảo</option>
+                </select>
+              </div>
+            </div>
+            <div class="name">
+              <h2>Tuần, tiết theo PPCT:</h2>
+              <span class="ppct">Tuần 10, tiết 45</span>
+            </div>
+            <div class="name">
+              <h2>Nội dung bài học:</h2>
+              <span class="content">Tích phân ứng dụng</span>
+            </div>
+            <div class="name">
+              <h2>Chú thích/Lí do:</h2>
+              <span class="comment">Đi chấm thi</span>
+            </div>
+          </div>
+          <div class="popup-footer">
+            <button class="btn-cancel">Huỷ</button>
+            <button class="btn-accept">Duyệt</button>
+            <button class="btn-reject">Từ chối</button>
+          </div>
+        </div>
+      </div>
+      <!-- End Popup -->
+    </div>
+  </body>
+</html>

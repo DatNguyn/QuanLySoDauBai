@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ</title>
+    <!-- link googole fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ita...lay=swap"
+      rel="stylesheet"
+    />
+    <!-- link google material -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+S...,400,0,0"
+    />
+    <!-- link icon -->
+    <script
+      src="https://kit.fontawesome.com/b2fc9cc4db.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- reset css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0....in.css"
+    />
+
+    <!-- link css -->
+    <link rel="stylesheet" href="../../CSS/aside_nav.css" />
+  </head>
+  <body>
+    <aside class="aside">
+      <div class="aside__profile">
+        <div class="aside__avatar-container">
+          <img
+            src="../../images/avatar.png"
+            alt="Avatar for teacher"
+            class="aside__avatar"
+          />
+        </div>
+        <div class="aside__info">
+          <span class="aside__name">Tên giáo viên</span>
+          <span class="aside__logan">Chúc ngày mới tốt lành!</span>
+        </div>
+      </div>
+      <hr />
+      <nav class="aside__nav">
+        <ul class="aside__nav-container">
+          <li><a class="aside__nav-item" href="/">Tổng quan</a></li>
+          <li>
+            <a class="aside__nav-item" href="/schedule">Thời khóa biểu</a>
+          </li>
+          <li>
+            <a class="aside__nav-item" href="/teaching-plan"
+              >Kế hoạch giảng dạy</a
+            >
+          </li>
+          <li class="aside__nav-item-wrapper-downdrop">
+            <label class="aside__nav-item" for="teaching-management">
+              Quản lý giảng dạy
+            </label>
+            <input id="teaching-management" type="checkbox" />
+            <span class="material-symbols-outlined on-uncheck"> stat_1 </span>
+            <span class="material-symbols-outlined on-check">
+              stat_minus_1
+            </span>
+            <ul class="aside__nav-item-dropdown">
+              <li><a class="aside__nav-item" href="">Kiểm duyệt</a></li>
+              <li><a class="aside__nav-item" href="">Sổ đầu bài</a></li>
+            </ul>
+          </li>
+          <li><a class="aside__nav-item" href="/minigame">Minigames</a></li>
+          <li>
+            <a class="aside__nav-item is-active" href="/report"
+              >Báo cáo thống kê</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <hr />
+      <button class="aside__nav-item aside__nav-item--btn">
+        <span>Đăng xuất</span>
+      </button>
+    </aside>
+  </body>
+</html>
