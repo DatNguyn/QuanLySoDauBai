@@ -12,7 +12,7 @@
 
 button {
   width: 130px;
-  height: 48px;
+  height: 39px
   cursor: pointer;
   padding: 10px 10px;
   border: 0;
@@ -30,14 +30,13 @@ button {
   justify-content: center;
   align-items: center;
   position: absolute;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.5);
   opacity: 0;
   pointer-events: none;
-  
 }
 .popup-container.active {
   opacity: 1;
@@ -45,18 +44,19 @@ button {
   transition: 0.4s ease;
 }
 .popup-dayBu {
-  width: 1444px;
-  height: 1071px;
+  width: 955px;
+  height: fit-content;
   background: #ffff;
   border-radius: 8px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 60px;
-  
+  padding: 0px 60px;
+  padding-bottom: 10px;
 }
 .popup-dayBu .popup-header {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  width: 830px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -73,28 +73,29 @@ button {
   font-weight: 600;
 }
 .popup-dayBu .popup-body {
+  width: fit-content;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  border: 1px solid #6F7979;
-  padding: 24px;
-  margin-bottom: 40px;
-  padding: 24px;
+  border: 1px solid #6f7979;
+  padding: 10px;
+  margin-bottom: 10px;
 }
+
 .popup-dayBu h2 {
   padding: 10px 10px;
   align-items: center;
-  font-size: 22px;
+  font-size: 16px;
 }
 #comment {
-  width: 1256px;
-  height: 50px;
+  width: 800px;
+  height: 39px;
   border-radius: 8px;
-  border: 1px solid #6F7979;
-  padding: 10px 10px; 
+  border: 1px solid #6f7979;
+  padding: 10px 10px;
   resize: none;
-  overflow: auto; 
-  font-size: 22px;
+  overflow: auto;
+  font-size: 16px;
   font-weight: 400;
   margin-left: 10px;
 }
@@ -102,41 +103,40 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 20px;
 }
-.list{
+.list {
   width: 362px;
-  height: 50px;
+  height: 39px;
 }
 #class {
-  width: 362px;
-  height: 50px;
+  width: 230px;
+  height: 39px;
   border-radius: 8px;
-  border: 1px solid #6F7979;
-  font-size: 22px;
+  border: 1px solid #6f7979;
+  font-size: 16px;
   font-weight: 400;
   padding: 0 10px;
   margin-left: 10px;
 }
 #date {
-  width: 362px;
-  height: 50px;
+  width: px;
+  height: 39px;
   border-radius: 8px;
-  border: 1px solid #6F7979;
-  font-size: 22px;
+  border: 1px solid #6f7979;
+  font-size: 16px;
   font-weight: 400;
   padding: 0 10px;
   margin-left: 83px;
 }
 #lesson {
   width: 362px;
-  height: 50px;
+  height: 39px;
   border-radius: 8px;
-  border: 1px solid #6F7979;
-  padding: 10px 10px; 
+  border: 1px solid #6f7979;
+  padding: 10px 10px;
   resize: none;
-  overflow: auto; 
-  font-size: 22px;
+  overflow: auto;
+  font-size: 16px;
   font-weight: 400;
 }
 .lesson-date {
@@ -145,11 +145,11 @@ button {
   margin-left: 10px;
 }
 .popup-dayBu .popup-footer {
+  width: 830px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 10px 0;
-
 }
 .btn-cancel {
   margin-right: 20px;
@@ -161,7 +161,4 @@ button:hover {
   transform: scale(1.05);
   font-size: 16px;
   transform-origin: center center;
-}
-.item-list {
-  padding-bottom: 20px;
 }
