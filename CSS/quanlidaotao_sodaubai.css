@@ -1,0 +1,146 @@
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  box-sizing: border-box;
+  padding: 20px 60px;
+  border: 1px rgba(0, 0, 0, 0.5) solid;
+  margin: 12px 0px;
+  border-radius: 8px;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* main title */
+.main_title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+/* detail */
+.detail {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 0px;
+}
+
+.class_detail {
+  font-weight: bold;
+}
+
+.time_detail {
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
+.time_detail a {
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+.btn_export button {
+  height: 32px;
+  font-size: 16px;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: #21971e;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.btn_export button:hover {
+  background-color: #20971e85;
+}
+
+/* table  */
+.table {
+  box-sizing: border-box;
+  padding: 24px 0px;
+  border-top: 1px gray solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th,
+.first_col {
+  background-color: #d7e2ff;
+  font-weight: bold;
+}
+
+.highlight-green {
+  color: #155724;
+}
+.highlight-yellow {
+  color: #856404;
+}
+.highlight-red {
+  color: #721c24;
+}
+
+/* comment */
+.comment .comment_title {
+  font-weight: 500;
+}
+
+.comment input {
+  margin: 8px 0px;
+  border-radius: 8px;
+  height: 39px;
+  width: 100%;
+}
+
+/* option button  */
+.btn_option {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+}
+
+.btn_option button {
+  font-size: 16px;
+  width: 150px;
+  height: 48px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#cancel_btn {
+  border: 2px #a0153e solid;
+  background-color: white;
+  color: #a0153e;
+}
+
+#save_btn {
+  background-color: #a0153e;
+  color: white;
+  border-style: none;
+}
+
+#cancel_btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#save_btn:hover {
+  background-color: #a0153f75;
+}
