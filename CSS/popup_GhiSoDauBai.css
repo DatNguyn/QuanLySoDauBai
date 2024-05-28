@@ -6,8 +6,8 @@
   margin: 0;
 }
 #wrapper {
-  width: 100vw;
-  height: 100vh;
+  width: 600px;
+  height: 400px;
 }
 .material-symbols-outlined {
   font-size: 20px;
@@ -60,7 +60,7 @@ button {
   margin: 48px 0 0 0;
 }
 .popup-tiet-hoc .popup-header .contacts-icon {
-  font-size: 24px;
+  font-size: 16px;
 }
 .popup-tiet-hoc .popup-body {
   margin-top: 4px;
@@ -82,18 +82,23 @@ button {
   background: #21971e;
 }
 .popup-ghi-so {
-  width: 1444px;
-  height: 1152px;
+  width: 800px;
+  height: fit-content;
   background: #ffff;
   border-radius: 8px;
   padding: 60px;
-  margin-bottom: 15px;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.popup-ghi-so .name {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
 .popup-ghi-so .popup-header {
+  margin: 0, 0;
   margin-bottom: 15px;
   display: flex;
   justify-content: space-between;
@@ -116,66 +121,46 @@ button {
   border: 1px solid #6F7979;
 }
 .popup-ghi-so h2 {
+  width: 244px;
   padding: 10px 10px;
   align-items: center;
+  font-size: 16px;
 }
 .popup-ghi-so span {
-  font-size: 22px;
+  width: 244px;
+  font-size: 16px;
   font-weight: 300;
+  align-items: center;
   display: inline-block;
   justify-content: space-between;
 }
-.subject-name {
-  padding-left: 177px;
-}
-.class-name {
-  padding-left: 229px;
-}
-.teacher-name {
-  padding-left: 169px;
-}
-.ppct {
-  padding-left: 107px;
-}
-.student-count {
-  padding-left: 214px;
-}
 .quality {
-  padding-left: 55px;
+  margin: 0 0;
 }
 .quality input {
   width: 60px;
-  height: 40px;
+  height: 30px;
   text-align: center;
-  border: 1px solid #ececec;
+  border: 1px solid #6F7979;
   border-radius: 8px;
-  font-size: 22px;
+  font-size: 16px;
 }
-#comment {
-  width: 1284px;
-  height: 122px;
+input {
+  width: 414px;
+  height: 30px;
   border-radius: 8px;
   border: 1px solid #6F7979;
   padding: 10px 10px; 
   resize: none;
   overflow: auto; 
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 400;
-  margin-left: 10px;
-}
-.btn-picture{
-  width: 360px;
-  margin-top: 10px;
-  margin-left: 475px;
-  padding-left: 10px;
-  background: #ffff;
-  color: black;
-  border: 1px solid #ececec;
 }
 .popup-ghi-so .popup-footer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-top: 20px;
 }
 .btn-cancel {
   margin-right: 20px;

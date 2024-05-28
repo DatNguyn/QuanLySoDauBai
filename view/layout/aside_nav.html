@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../CSS/aside_nav.css" />
+  </head>
+  <body>
+    <aside class="aside">
+      <div class="aside__profile">
+        <div class="aside__avatar-container">
+          <img
+            src="../../images/avatar.png"
+            alt="Avatar for teacher"
+            class="aside__avatar"
+          />
+        </div>
+        <div class="aside__info">
+          <span class="aside__name">Tên giáo viên</span>
+          <span class="aside__logan">Chúc ngày mới tốt lành!</span>
+        </div>
+      </div>
+      <hr />
+      <nav class="aside__nav">
+        <ul class="aside__nav-container">
+          <li>
+            <a class="aside__nav-item" id="tongquan" href="/">Tổng quan</a>
+          </li>
+          <li>
+            <a class="aside__nav-item" id="thoikhoabieu" href="/schedule"
+              >Thời khóa biểu</a
+            >
+          </li>
+          <li>
+            <a
+              class="aside__nav-item"
+              id="kehoachgiangday"
+              href="/view/kehoachgiangday.html"
+              >Kế hoạch giảng dạy</a
+            >
+          </li>
+          <li class="aside__nav-item-wrapper-downdrop">
+            <label
+              class="aside__nav-item"
+              id="quanlygiangday"
+              for="teaching-management"
+            >
+              Quản lý giảng dạy
+            </label>
+            <input id="teaching-management" type="checkbox" />
+            <span class="material-symbols-outlined on-uncheck"> stat_1 </span>
+            <span class="material-symbols-outlined on-check">
+              stat_minus_1
+            </span>
+            <ul class="aside__nav-item-dropdown">
+              <li>
+                <a
+                  class="aside__nav-item"
+                  id="kiemduyet"
+                  href="/view/duyettiet.html"
+                  >Kiểm duyệt</a
+                >
+              </li>
+              <li>
+                <a class="aside__nav-item" id="sodaubai" href="">Sổ đầu bài</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="aside__nav-item" id="minigame" href="/minigame"
+              >Minigames</a
+            >
+          </li>
+          <li>
+            <a class="aside__nav-item" id="baocaothongke" href="/report"
+              >Báo cáo thống kê</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <hr />
+      <button class="aside__nav-item aside__nav-item--btn">
+        <span>Đăng xuất</span>
+      </button>
+    </aside>
+    <script src="../../javascript/aside_nav.js"></script>
+  </body>
+</html>

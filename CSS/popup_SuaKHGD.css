@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+  }
+  .popup-footer button {
+    width: 130px;
+    height: 39px;
+    cursor: pointer;
+    padding: 10px 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    color: #ffff;
+    background: #a0153e;
+    transition: transform 0.3s ease;
+    overflow: hidden; 
+  }
+  .popup-container_SuaKHGD {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 999;
+  }
+  .popup-container_SuaKHGD.active {
+    opacity: 1;
+    pointer-events: auto;
+    transition: 0.4s ease;
+  }
+  .popup-SuaKHGD {
+    width: fit-content;
+    height: fit-content;
+    background: #ffff;
+    border-radius: 8px;
+    padding: 40px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .popup-SuaKHGD .popup-header {
+    /* margin-bottom: 20px; */
+    width: 830px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+  }
+  
+  .popup-SuaKHGD .cancel-icon {
+    font-size: 40px;
+    cursor: pointer;
+    color: #a0153e;
+  }
+  .popup-SuaKHGD .popup-header h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 10px;
+  }
+  .popup-SuaKHGD .popup-body {
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #6f7979;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .popup-SuaKHGD h2 {
+    padding: 10px 10px;
+    align-items: center;
+    font-size: 16px;
+  }
+  .popup-SuaKHGD #comment {
+    width: 800px;
+    height: 39px;
+    border-radius: 8px;
+    border: 1px solid #6f7979;
+    padding: 10px 10px;
+    resize: none;
+    overflow: auto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+  }
+  .popup-SuaKHGD .class-subject {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .popup-SuaKHGD .list {
+    width: 362px;
+    height: 39px;
+  }
+  .popup-SuaKHGD #class {
+    width: 230px;
+    height: 39px;
+    border-radius: 8px;
+    border: 1px solid #6f7979;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 10px;
+    margin-left: 10px;
+  }
+  .popup-SuaKHGD #date {
+    height: 39px;
+    border-radius: 8px;
+    border: 1px solid #6f7979;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 10px;
+    margin-left: 32px;
+  }
+  .popup-SuaKHGD #lesson {
+    width: 362px;
+    height: 39px;
+    border-radius: 8px;
+    border: 1px solid #6f7979;
+    padding: 10px 10px;
+    resize: none;
+    overflow: auto;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .popup-SuaKHGD #period {
+    width: 230px;
+    height: 39px;
+    border-radius: 8px;
+    border: 1px solid #6f7979;
+    padding: 10px 10px;
+    resize: none;
+    overflow: auto;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .popup-SuaKHGD .lesson-date {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .popup-SuaKHGD .popup-footer {
+    width: 830px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .popup-footer .btn-cancel {
+    margin-right: 20px;
+    border: 1px solid #a0153e;
+    color: #a0153e;
+    background: #ffff;
+  }
+  .popup-SuaKHGD button:hover {
+    transform: scale(1.05);
+    font-size: 16px;
+    transform-origin: center center;
+  }

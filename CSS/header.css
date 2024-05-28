@@ -9,16 +9,15 @@ body {
 }
 
 .header_title {
-  position: absolute;
+  position: relative;
   top: 0px;
-  height: 100px;
+  height: 80px;
   width: 100%;
   background-color: #a0153e;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
   flex-wrap: nowrap;
 }
 
@@ -31,19 +30,51 @@ body {
 .list1:first-child {
   margin-left: 50px;
 }
-
-#logo_truong {
-  height: 100px;
-  width: 100px;
+#NamHoc {
+  width: fit-content;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Roboto";
+  border-radius: 8px;
 }
 
+#NamHoc option {
+  font-family: "Roboto";
+  font-size: 14px;
+  width: fit-content;
+}
+
+#KiHoc {
+  width: fit-content;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Roboto";
+  border-radius: 8px;
+}
+
+#KiHoc option {
+  font-family: "Roboto";
+  font-size: 14px;
+  width: fit-content;
+  padding: 80px;
+}
+
+#logo_truong {
+  height: 75px;
+  width: 85px;
+}
+.notifications-icon {
+  color: white;
+}
 .list1 {
   display: flex;
   align-items: center;
 }
 
 .list2:last-child {
-  margin-right: 50px;
+  margin-right: 60px;
 }
 .list2 {
   display: flex;
@@ -60,53 +91,9 @@ body {
   font-size: 18px;
 }
 
-.icon {
-  color: white;
-}
-
-#dropdownHocKyButton {
-  font-weight: 550;
-}
-
-#dropdownNamHocButton {
-  font-weight: 550;
-}
-
 #avatar_image {
-  border-radius: 20px;
-}
-
-.nav_bar {
-  position: absolute;
-  top: 100px;
-  background-color: white;
-  width: 100%;
-  height: 30px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.nav_tree {
-  position: absolute;
-  left: 100px;
-}
-
-.dieuhuong {
-  color: white;
-  font-size: 12px;
-  font-weight: 600;
-  display: inline;
-  margin-left: 20px;
-  margin-right: 20px;
-  color: #a0153e;
-}
-
-.dieuhuong:last-child {
-  color: black;
-}
-
-.icon_dieu_huong {
-  color: black;
+  border-radius: 100px;
+  height: 54px;
+  width: 54px;
 }
 /* Hết css cho header  */
