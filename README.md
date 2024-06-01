@@ -5,7 +5,7 @@ Website nhóm: https://sites.google.com/view/odermeme3/trang-ch%E1%BB%A7?authuse
 * Nhóm phó: Trịnh Hoài Nam - 21521167
 * Thư ký: Mai Thị Thanh Loan - 22520782
 * Thành viên: Nguyễn Tiến Đạt - 22520227
-* Thành viên: Nguyễn Thanh Duyên - 2252
+* Thành viên: Nguyễn Thanh Duyên - 22520349
 * Giảng viên hướng dẫn: Tạ Việt Phương
 
 ## Công nghệ sử dụng:
