@@ -1,0 +1,205 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%; /* 1 rem = 10px */
+  font-family: "Roboto", sans-serif;
+}
+body {
+  
+  font-size: 1.6rem; /* cơ chữ mặc định là 16px */
+}
+.main-page {
+  padding: 10px 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.main {
+  height: fit-content;
+  min-height: 660px;
+  width: calc(100% - 288px);
+  padding: 20px 40px;
+  margin-left: 10px;
+  border-radius: 8px;
+  border: 1px solid grey; 
+  background-color: white;
+}
+
+.main-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.main-button .btn button {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+.main-button .btn .btn-themday {
+  background-color: #21971e;
+  color: white;
+}
+
+.main-button .btn .btn-themdaythay {
+  background-color: #a0153e;
+  color: white;
+}
+
+/* điều hướng */
+.nav_bar {
+  position: relative;
+  top: 0px;
+  background-color: white;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 336px;
+}
+
+.dieuhuong {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #a0153e;
+}
+
+.dieuhuong:last-child {
+  color: black;
+}
+.nav_bar .arrow_forward_ios {
+  font-size: 16px;
+}
+.nav_tree {
+  display: flex;
+  align-items: center;
+}
+
+/* sort */
+.main__sort-container {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.main__sort--btn {
+  height: 34px;
+  padding-inline: 10px;
+  padding-block: 5px;
+  min-width: 95px;
+  font-size: 14px;
+  border-radius: 8px;
+  display: flex;
+  border: solid 1px #6c757d;
+  user-select: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn__label {
+  line-height: 1.5rem;
+}
+
+.btn__icon.icon {
+  display: none;
+  font-size: 20px;
+}
+
+.main__sort--input {
+  display: none;
+}
+
+.main__sort--input:checked + .main__sort--btn {
+  padding-inline-start: 5px;
+  background-color: #a0153e;
+  border: solid 2px #a0153e;
+  color: white;
+}
+
+.main__sort--input:checked + .main__sort--btn .btn__icon {
+  display: block;
+}
+
+.main-button .btn button {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+.main-button .btn .btn-themday {
+  background-color: #21971e;
+  color: white;
+}
+
+.main-button .btn .btn-themdaythay {
+  background-color: #a0153e;
+  color: white;
+}
+
+hr {
+  margin: 20px 0px;
+  border-width: 0.5px;
+  border-color: #e9e9e9;
+}
+
+table,
+th,
+td {
+  border: 1px solid #e9e9e9;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  font-size: 13px;
+}
+
+.trangthai {
+  color: #dc9b1b;
+  text-align: center;
+}
+
+.kehoach-btn .material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+  font-size: 26px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.visibility {
+  color: #fe9c0b;
+}
+
+.delete {
+  color: #a0153e;
+}
+
+.kehoach-btn {
+  text-align: center;
+}
+
+.main-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+

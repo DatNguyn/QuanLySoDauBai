@@ -1,0 +1,149 @@
+.aside {
+    grid-area: aside;
+    height: 100%;
+    width: 278px;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    background-color: #ffff;
+    border: solid 1px #6c757d;
+  }
+  
+  .aside__profile {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+    margin: 0px 10px;
+    margin-top: 20px;
+  }
+  
+  #aside hr {
+    margin: 20px 0px;
+    border-width: 0.5px;
+    border-color: #6c757d;
+  }
+  
+  .aside__avatar-container {
+    width: 54px;
+  }
+  
+  .aside__avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .aside__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .aside__name {
+    font-weight: bold;
+  }
+  
+  .aside__logan {
+    font-size: 12px;
+    color: black;
+    font-style: italic;
+    font-weight: 400;
+  }
+  
+  /* .aside__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  } */
+  
+  .aside__nav-container li {
+    list-style: none;
+  }
+  .aside__nav a:is(:link, :visited, :active) {
+    color: unset;
+    text-decoration: unset;
+  }
+  
+  .aside__nav-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .aside__nav-item {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer !important;
+    user-select: none;
+    height: 50px;
+  }
+  
+  .aside__nav-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  .aside__nav-item.is-active {
+    background-color: #a0153e;
+    color: white !important;
+  }
+  
+  .aside__nav-item-wrapper-downdrop {
+    position: relative;
+  }
+  .aside__nav-item-wrapper-downdrop .material-symbols-outlined {
+    display: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  #teaching-management:checked ~ .material-symbols-outlined.on-check {
+    display: block;
+    margin-top: 4px;
+  }
+  
+  #teaching-management:not(:checked) ~ .material-symbols-outlined.on-uncheck {
+    display: block;
+    margin-top: 4px;
+  }
+  
+  #teaching-management {
+    display: none;
+  }
+  
+  .aside__nav-item-dropdown {
+    display: none;
+    margin-block-start: 0.5rem;
+  }
+  
+  #teaching-management:checked ~ .aside__nav-item-dropdown {
+    display: block;
+  }
+  
+  .aside__nav-item-dropdown .aside__nav-item {
+    padding-left: 2rem;
+  }
+  
+  .aside__nav-item--btn {
+    width: 100%;
+    border: solid 2px white;
+    display: flex;
+    color: #a0153e;
+    font-size: medium;
+  }
+  
+  .aside__nav-item--btn:hover {
+    background-color: rgba(250, 0, 0, 0.025);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .aside__nav-item--btn:active {
+    background-color: rgba(250, 0, 0, 0.05);
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
+  }
+  

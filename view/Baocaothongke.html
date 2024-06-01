@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Báo cáo thống kê</title>
+    <!-- link googole fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link google material -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- reset css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <!-- link css -->
+    <link rel="stylesheet" href="../CSS/Baocaothongke.css" />
+  </head>
+  <body>
+    <div id="baocaothongke">
+      <!-- HEADER -->
+      <header class="header"></header>
+      <!-- NAVIGATION BAR -->
+      <nav class="nav_bar">
+        <div class="nav_tree">
+          <div class="dieuhuong trangtruoc">Trang chủ</div>
+          <span class="material-symbols-outlined arrow_forward_ios">
+            arrow_forward_ios
+          </span>
+          <div class="dieuhuong trangtruoc">Báo cáo thống kê</div>
+        </div>
+      </nav>
+      <!-- MAIN PAGE -->
+      <div class="main-page">
+        <!-- ASIDE NAV -->
+        <div class="aside_nav"></div>
+        <!-- MAIN CONTENT -->
+        <div class="main">
+          <h1>Báo cáo thống kê</h1>
+          <div class="main__sort-container">
+            <span class="main__sort--text">Sắp xếp theo: </span>
+            <input
+              class="main__sort--input"
+              id="main__sort--btn-1"
+              type="checkbox"
+            />
+            <label for="main__sort--btn-1" class="main__sort--btn">
+              <span class="btn__icon icon material-symbols-outlined">done</span>
+              <span class="btn__label">Gần đây</span>
+            </label>
+            <input
+              class="main__sort--input"
+              id="main__sort--btn-2"
+              type="checkbox"
+            />
+            <label for="main__sort--btn-2" class="main__sort--btn">
+              <span class="btn__icon icon material-symbols-outlined">done</span>
+              <span class="btn__label">Khác</span>
+            </label>
+          </div>
+          <hr />
+          <div class="main__container">
+            <h2 class="main__container-title">Danh sách báo cáo</h2>
+            <div class="main__container-block">
+              <div class="main__container-wrapper">
+                <span
+                  class="material-symbols-outlined material-symbols-outlined-finance"
+                >
+                  finance
+                </span>
+                <div class="main__container-text">
+                  <h3>
+                    <a href="#" class="main__container-title"
+                      >Báo cáo hành vi</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="main__container-block">
+              <div class="main__container-wrapper">
+                <span
+                  class="material-symbols-outlined material-symbols-outlined-finance"
+                >
+                  finance
+                </span>
+                <div class="main__container-text">
+                  <h3>
+                    <a href="#" class="main__container-title"
+                      >Báo cáo truy cập</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="main__container-block">
+              <div class="main__container-wrapper">
+                <span
+                  class="material-symbols-outlined material-symbols-outlined-finance"
+                >
+                  finance
+                </span>
+                <div class="main__container-text">
+                  <h3>
+                    <a href="#" class="main__container-title"
+                      >Báo cáo chất lượng</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="main__container-block">
+              <div class="main__container-wrapper">
+                <span
+                  class="material-symbols-outlined material-symbols-outlined-finance"
+                >
+                  finance
+                </span>
+                <div class="main__container-text">
+                  <h3>
+                    <a href="#" class="main__container-title"
+                      >Báo cáo sức khỏe</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="main__container-block">
+              <div class="main__container-wrapper">
+                <span
+                  class="material-symbols-outlined material-symbols-outlined-finance"
+                >
+                  finance
+                </span>
+                <div class="main__container-text">
+                  <h3>
+                    <a href="#" class="main__container-title"
+                      >Báo cáo vận hành</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="main__container-block">
+              <div class="main__container-wrapper">
+                <span
+                  class="material-symbols-outlined material-symbols-outlined-finance"
+                >
+                  finance
+                </span>
+                <div class="main__container-text">
+                  <h3>
+                    <a href="#" class="main__container-title"
+                      >Báo cáo cơ sở vật chất</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="footer"></footer>
+    <!-- link js -->
+    <script src="../javascript/Baocaothongke.js"></script>
+  </body>
+</html>

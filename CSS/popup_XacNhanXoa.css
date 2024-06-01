@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.popup-footer button {
+  height: 48px;
+  width: 130px;
+  cursor: pointer;
+  padding: 10px 24px;
+  border: 0;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  border-radius: 8px;
+  color: #ffff;
+  background: #a0153e;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+.popup-container_XacNhanXoa {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 999;
+}
+.popup-container_XacNhanXoa.active {
+  opacity: 1;
+  pointer-events: auto;
+  transition: 0.4s ease;
+}
+.popup-container_XacNhanXoa .popup-XacNhanXoa {
+  width: 517px;
+  height: fit-content;
+  background: #ffff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 40px;
+  border-radius: 8px;
+}
+.popup-XacNhanXoa .popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #dedede;
+}
+.popup-XacNhanXoa .popup-header h1 {
+  font-size: 22px;
+  margin: 0;
+}
+.popup-XacNhanXoa .icon_thoat {
+  font-size: 24px;
+  cursor: pointer;
+}
+.popup-XacNhanXoa .popup-body p {
+  font-size: 16px;
+  text-align: justify;
+  font-weight: 400;
+  margin: 20px 0;
+}
+#btn_huy {
+  border: 1px solid #a0153e;
+  color: #a0153e;
+  background: #ffff;
+  margin-right: 12px;
+}
+.popup-XacNhanXoa button:hover {
+  transform: scale(1.05);
+  font-size: 18px;
+  transform-origin: center center;
+}
