@@ -20,8 +20,11 @@ Bạn cần phải cài đặt Visual Studio Code IDE và Xampp!
 
 * [Visual Studio Code](https://code.visualstudio.com/download)
 * Cài đặt các extension như:
+  
     PHP Intelephense
+  
     PHP Debug
+  
     PHP Server
 * [Xampp](https://www.apachefriends.org/download.html)
 
@@ -37,8 +40,8 @@ Bước 2: Cài Đặt XAMPP
 
 Bước 3: Cấu Hình Database
 * Mở trình duyệt và truy cập http://localhost/phpmyadmin.
-*  Tạo một cơ sở dữ liệu mới có tên là quanlysodaubai.
-*   Import Cơ Sở Dữ Liệu: file .sql
+* Tạo một cơ sở dữ liệu mới có tên là quanlysodaubai.
+* Import cơ sở dữ liệu: file .sql
 
 Bước 4: Cấu Hình Source Code
 * Di chuyển Source Code vào thư mục htdocs của XAMPP (thường nằm tại C:\xampp\htdocs trên Windows).
